@@ -1,0 +1,3 @@
+On evClick
+	Do $cinst.$objs.TreePane.$currentpage.$assign(pick(iHasCheckBoxes=1,2,1))
+	Do method buildList

@@ -1,0 +1,17 @@
+;  Enter your initialization code here
+
+Do iList.$define(iListParent,iListChild,iListIdent)
+
+Do iTree.$define(iParent,iChild,iIdent,iExpanded,iColor,iToolTip)
+Do iTree.$add('Parent1','',1,1,0,'Hi Parent 1')
+Do iTree.$add('Parent1','Child1',2,0,0,'')
+Do iTree.$add('Parent1','Child2',3,0,0,'')
+Do iTree.$add('Parent1','Child3',4,0,0,'')
+Do iTree.$add('Parent1','Child4',5,0,0,'')
+Do iTree.$add('Parent2','',6,0,0,'Hi Parent 2')
+Do iTree.$add('Parent2','Child1',7,0,0,'')
+Do iTree.$add('Parent2','Child2',8,0,0,'')
+Do iTree.$add('Parent2','Child3',9,0,0,'')
+Do iTree.$add('Parent2','Child4',10,0,0,'')
+
+Calculate iTree2 as iTree

@@ -1,0 +1,13 @@
+Do iList.$clear()
+If iHasCheckBoxes
+	Set reference lTreeRef to iTree.$ref
+Else
+	Set reference lTreeRef to iTree2.$ref
+End If
+
+Do lTreeRef.$first(kTrue,kFalse) Returns lLineRef
+While lLineRef
+	Do lTreeRef.$loadcols()
+	Do iList.$add(iParent,iChild,iIdent)
+	Do lTreeRef.$next(lLineRef,kTrue,kFalse) Returns lLineRef
+End While
