@@ -1,5 +1,6 @@
 # Omnis-JSTreeList
-Library shows the JS TreeList component with and without checkboxes
+Library shows the JS TreeList component with and without checkboxes.
+
 The app can be viewed here http://tinyurl.com/jsgallery8, click on 'Tree List' in the list.
 
 Requires Omnis Studio 8.1.2 or above
